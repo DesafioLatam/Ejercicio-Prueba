@@ -1,0 +1,183 @@
+:root {
+	--blue: #4571cb;
+	--green: #2c961e;
+	--gray: #5c5c5c;
+	--light-gray: #f6f6f6;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+a.button {
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: white;
+}
+
+a.button.button-blue {
+	background-color: var(--blue);
+}
+
+a.button.button-green {
+	background-color: var(--green);
+}
+
+header.main {
+	background: url(../images/bg.jpeg) no-repeat;
+	background-size: cover;
+}
+
+header.main nav,
+header.main nav::before,
+header.main nav::after {
+	clear: both;
+}
+
+header.main nav a .logo {
+	width: 200px;
+}
+
+header.main nav .navigation {
+	float: right;
+	margin-top: 10px;
+}
+
+header.main nav .navigation li {
+	display: inline;
+	margin: 0 10px;
+}
+
+header.main nav .navigation li a {
+	color: white;
+	font-size: 2rem;
+}
+
+header.main .hero {
+	color: white;
+}
+
+header.main .hero .center-content {
+	margin: 100px 0;
+	text-align: center;
+}
+
+header.main .hero .center-content h1 {
+
+}
+
+header.main .hero .center-content a.button:hover {
+	text-decoration: none;
+}
+
+header.main .hero .center-content p.text {
+	margin-top: 20px;
+
+}
+
+section[class^="contenido"] > div {
+	border-bottom: 1px solid var(--gray);
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+section.contenido03 > div {
+	border-bottom: none;
+}
+
+section[class^="contenido"]:nth-child(odd) {
+	background-color: var(--light-gray);
+}
+
+
+section.contenido01 {
+	
+}
+
+section.contenido01 .content-class {
+	background: url(../images/happy-people.png) no-repeat;
+	background-size: auto 500px;
+	background-position: center bottom;
+	color: var(--gray);
+	min-height: 600px;
+}
+
+section.contenido01 .content-class h2 {
+	font-size: 1.8rem;
+}
+
+section.contenido02 {
+	color: var(--gray);
+}
+
+section.contenido02 .subscribe {
+	background-color: var(--blue);
+	display: inline-block;
+	margin: 10px 0;
+}
+
+section.contenido03 > div {
+	text-align: left;
+}
+
+section.contenido03 .container > div h3 {
+	font-size: 1.6rem;
+}
+
+section.contenido03 .contacto ul {
+	padding: 0;
+}
+
+section.contenido03 .contacto ul li {
+	list-style: none;
+}
+
+section.contenido03 .suscribete form input.form-control {
+	width: 70%;
+	float: left;
+}
+
+section.contenido03 .suscribete form input.button {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 6px 15px;
+	margin-left: 5px;
+}
+
+footer.main {
+	background-color: #222;
+	color: white;
+	padding: 20px;
+}
+
+
+
+
+/* XS Size */
+@media screen and (max-width: 767px) {
+	header.main nav a .logo {
+		width: 150px;
+	}
+}
+
+/* SM Size */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+/* MD Size */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* LG Size */
+@media screen and (min-width: 1200px) {
+
+}
